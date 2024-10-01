@@ -1,0 +1,782 @@
+\documentclass[12pt]{article}
+
+% Font settings
+\usepackage{mathptmx} % Times New Roman font
+\usepackage[T1]{fontenc}
+% Line spacing
+\usepackage{setspace}
+\setlength{\parindent}{0pt}
+\usepackage[a4paper, left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage[normalem]{ulem}
+\usepackage{afterpage}
+\usepackage{adjustbox}
+\usepackage[dvipsnames]{xcolor}
+
+\usepackage[authoryear, round]{natbib}
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=cyan, citecolor=blue]{hyperref}
+
+% \usepackage[
+% backend=biber,
+% style=authoryear,
+% ]{biblatex}
+% \DeclareFieldFormat{booktitle}{#1}
+% \DeclareFieldFormat{journaltitle}{#1}
+% \addbibresource{bibliography.bib}
+
+\title{\huge{Folder Guide}}
+\author{}
+\date{}
+
+
+
+
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\thispagestyle{empty}
+
+
+
+
+
+\newpage
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+\section{Literature}
+\subsection{Directions}
+\begin{itemize}
+    \item[(1)] NIA Priorities
+    \begin{itemize}
+        \item Summary
+        \item \href{https://www.nia.nih.gov/about/aging-strategic-directions-research}{NIA (2020-2025)}: The National Institute on Aging - Strategic Directions for Research, 2020-2025
+        \item \href{https://www.fda.gov/regulatory-information/selected-amendments-fdc-act/21st-century-cures-act}{21st Century Cures Act}
+    \end{itemize}
+    \item[(2)] Reviews 
+    \begin{itemize}
+        \item \citet{mayer2009new}: New directions in life course research
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsection{Health}
+\subsubsection{Health Overview}
+\begin{itemize}
+    \item[(1)] OECD Reports
+    \begin{itemize}
+        \item \href{https://www.oecd-ilibrary.org/social-issues-migration-health/health-at-a-glance-2021_ae3016b9-en}{OECD (2021)}: Health at a Glance 2021
+        \item \href{https://www.oecd-ilibrary.org/social-issues-migration-health/health-at-a-glance-europe-2022_507433b0-en}{OECD (2022 Europe)}: Health at a Glance: Europe 2022 
+        \item \href{https://health.ec.europa.eu/state-health-eu/country-health-profiles_en}{OECD (2021 Czech)}: State of Health in the EU - Czechia
+        \item \href{https://health.ec.europa.eu/state-health-eu/country-health-profiles_en}{OECD (2021 Denmark)}: State of Health in the EU - Denmark
+        \item \href{https://health.ec.europa.eu/state-health-eu/country-health-profiles_en}{OECD (2021 France)}: State of Health in the EU - France
+        \item \href{https://health.ec.europa.eu/state-health-eu/country-health-profiles_en}{OECD (2021 Germany)}: State of Health in the EU - Germany
+        \item \href{https://health.ec.europa.eu/state-health-eu/country-health-profiles_en}{OECD (2021 Italy)}: State of Health in the EU - Italy        
+    \end{itemize}
+    \item[(2)] WHO Reports
+    \begin{itemize}
+        \item \href{https://reliefweb.int/report/world/world-health-statistics-2023-monitoring-health-sdgs-sustainable-development-goals?gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1qcRkffnlyozCmjDNz91fun7V2z_bovggRvfVxIf2BG5SrdTWJWVZ0aAme-EALw_wcB}{WHO (2023)}: World health statistics 2023 - monitoring health for the SDGs, Sustainable Development Goals
+    \end{itemize}
+\end{itemize}
+
+
+
+
+\subsubsection{Health Determinants}
+Concept: \\
+\uline{SES (Socioeconomic Status)}: income, wealth, education, parents education, living condition, etc.
+\begin{itemize}
+    \item[(1)] Summary
+    \item[(2)] Health \& Income
+    \begin{itemize}
+        \item \cite{chetty2016association}: The Association Between Income and Life Expectancy in the United States, 2001-2014
+        \item \cite{cheung2016income}: Income Inequality Is Associated With Stronger Social Comparison Effects: The Effect of Relative Income on Life Satisfaction
+        \item \cite{ridley2020poverty}: Poverty, depression, and anxiety: Causal evidence and mechanisms
+        \item Review\_\cite{pickett2015income}: Income inequality and health: a causal review
+        \item Review\_\cite{thomson2022income}: How do income changes impact on mental health and wellbeing for working-age adults? A systematic review and meta-analysis
+    \end{itemize}
+    \item[(3)] Health \& Education
+    \begin{itemize}
+         \item \cite{cunha2007technology}: The technology of skill formation
+         \item \cite{conti2010education}: The education-health gradient
+         \item \cite{lawrence2017college}: Why Do College Graduates Behave More Healthfully than Those Who Are Less Educated?
+        \item \cite{avendano2017does}: Does more education always improve mental health? Evidence from a British compulsory schooling reform
+        \item \cite{zajacova2017physical}: Physical Functioning Trends among US Women and Men Age 45–64 by Education Level
+        \item Review\_\cite{galama2018effect}: The Effect of Education on Health and Mortality: A Review of Experimental and Quasi-Experimental Evidence 
+        \item Reivew\_\cite{glymour2018compulsory}: Compulsory Schooling Laws as Quasi-Experiments for the Health Effects of Education: Revisiting Theory to Understand Mixed Results
+        \item Review\_\cite{zajacova2018relationship}: The Relationship Between Education and Health: Reducing Disparities Through a Contextual Approach
+        \item Review\_\cite{xue2021does}: Does education really improve health? A meta‐analysis
+    \end{itemize}
+    \item[(4)] Health \& SES
+    \begin{itemize}
+        \item \cite{chandola2003health}: Health selection in the Whitehall II study, UK
+        \item \cite{braveman2006health}: Health disparities and health equity: concepts and measurement
+        \item \cite{marmot2008closing}: Closing the gap in a generation: health equity through action on the social determinants of health
+        \item \cite{adesanya2017socioeconomic}: Socioeconomic differential in self-assessment of health and happiness in 5 African countries: Finding from World Value Survey
+        \item \cite{assari2018education}: Education and Income Predict Future Emotional Well-Being of Whites but Not Blacks: A Ten-Year Cohort
+        \item \cite{fors2018social}: Social status and life satisfaction in context: A comparison between Sweden and the USA
+        \item \cite{wang2019effects}: Effects of Socioeconomic Status on Physical and Psychological Health: Lifestyle as a Mediator
+        \item \cite{kivimaki2020association}: Association between socioeconomic status and the development of mental and physical health conditions in adulthood: a multi-cohort study
+        \item \cite{kezer2020comprehensive}: A Comprehensive Investigation of Associations of Objective and Subjective Socioeconomic Status with Perceived Health and Subjective Well-Being
+        \item \cite{navarro2020socioeconomic}: Socioeconomic Status and Psychological Well-Being: Revisiting the Role of Subjective Socioeconomic Status
+        \item \cite{kromydas2021most}: Which is most important for mental health: Money, poverty, or paid work? A fixed-effects analysis of the UK Household Longitudinal Study
+        \item \cite{bo2022time}: Time availability as a mediator between socioeconomic status and health 
+        \item \cite{tur2022risk}: Risk factors and health status among older adults in Europe: a socioeconomic analysis
+        \item \cite{liu2022socioeconomic}: Socioeconomic status and ADL disability of the older adults: Cumulative health effects, social outcomes and impact mechanisms
+        \item \cite{godefroy2022explains}: What explains the socioeconomic status-health gradient? Evidence from workplace COVID-19 infections 
+        \item \cite{ran2022subjective}: Subjective Socioeconomic Status, Class Mobility and Health Disparities of Older People
+        \item \cite{jakobsen2022opening}: Opening the black box of the relationship between neighborhood socioeconomic status and mental health: Neighborhood social-interactive characteristics as contextual mechanisms 
+        \item \cite{willey2022racial}: Racial and socioeconomic status differences in stress, post-traumatic growth, and mental health in an older adult cohort during the COVID-19 pandemic
+        \item \cite{kheifets2022association}: Association of socioeconomic status measures with physical activity and subsequent frailty in older adults
+        \item \cite{zhang2022effect}: Effect of socioeconomic status on the physical and mental health of the elderly: the mediating effect of social participation
+        \item \cite{xue2022impact}: The impact of socioeconomic status and sleep quality on the prevalence of multimorbidity in older adults
+        \item Review\_\cite{cundiff2017subjective}: Is Subjective Social Status a Unique Correlate of Physical Health? A Meta-Analysis
+        \item Review\_\cite{lago2018socioeconomic}: Socioeconomic status, health inequalities and non-communicable diseases: a systematic review
+        \item Review\_\cite{davies2019socioeconomic}: Socioeconomic position and use of healthcare in the last year of life: a systematic review and meta-analysis
+        \item Review\_\cite{tan2020association}: The association between objective and subjective socioeconomic standing and subjective well-being: A meta-analysis
+    \end{itemize}
+    \item[(6)] Related
+    \begin{itemize}
+        \item Review\_\cite{li2019socioeconomic}: Socioeconomic status and the prediction of health promoting dietary behaviours: A systematic review and meta-analysis based on the Theory of Planned Behaviour
+        \item Review\_\cite{nazri2021malnutrition}: Malnutrition, low diet quality and its risk factors among older adults with low socio-economic status: a scoping review
+        \item Review\_\cite{hayajneh2022association}: The Association of Frailty with Poverty in Older Adults: A Systematic Review
+    \end{itemize}   
+\end{itemize}
+
+
+
+\subsubsection{Health Impacts}
+\begin{itemize}
+    \item[(1)] Income \& Health
+    \begin{itemize}
+        \item \cite{haas2011childhood}: Childhood health and labor market inequality over the life course
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsubsection{Health Care}
+\begin{itemize}
+    \item[(1)] OECD Reports
+    \begin{itemize}
+        \item \href{https://www.oecd.org/health/realising-the-potential-of-primary-health-care-a92adee4-en.htm}{OECD (2020)}: Realising the Potential of Primary Health Care 
+        \item \href{https://www.oecd-ilibrary.org/social-issues-migration-health/the-effectiveness-of-social-protection-for-long-term-care-in-old-age_2592f06e-en}{OECD (2020)}: The effectiveness of social protection for long-term care in old age
+    \end{itemize}
+    \item[(2)] WHO Reports
+    \begin{itemize}
+        \item \href{https://reliefweb.int/report/world/primary-health-care-road-universal-health-coverage-2019-monitoring-report?gclid=Cj0KCQjwxuCnBhDLARIsAB-cq1qV30mTC1t5TjL-RkcjWxleBoXakapGhTClr9koY2DUhv9VhiDio0saAozJEALw_wcB}{WHO (2019)}: Primary Health Care on the Road to Universal Health Coverage
+        \item \href{https://apps.who.int/iris/handle/10665/344505}{WHO (2021}): Pricing long-term care for older persons
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsection{Dementia}
+\subsubsection{Dementia Overview}
+\begin{itemize}
+    \item[(1)] Alzheimer's Disease International
+    \begin{itemize}
+        \item \href{https://www.alzint.org/resource/world-alzheimer-report-2022/}{ADI (2022)}: World Alzheimer Report 2022 - Life after diagnosis: Navigating treatment, care and support
+    \end{itemize}
+    \item[(2)] Alzheimer Europe
+    \begin{itemize}
+        \item \href{https://www.alzheimer-europe.org/resources/publications/dementia-europe-yearbook-2019-estimating-prevalence-dementia-europe}{AE (2019)}: Dementia in Europe Yearbook 2019 - Estimating the prevalence of dementia in Europe
+        \item \href{https://www.alzheimer-europe.org/resources/publications/2020-alzheimer-europe-report-legal-capacity-and-decision-making-ethical}{AE (2020)}: Alzheimer Europe Report 2020 - Legal capacity and decision making: The ethical implications of lack of legal capacity on the lives of people with dementia
+        \item \href{https://www.alzheimer-europe.org/reports-publication/dementia-europe-yearbook-2021-dementia-inclusive-communities}{AE (2021)}: Dementia in Europe Yearbook 2021 - Dementia-inclusive Communities and Initiatives across Europe
+        \item \href{https://www.alzheimer-europe.org/product/dementia-europe-yearbook-2022-employment-and-related-social-protection-people-dementia-and}{AE (2022)}: Dementia in Europe Yearbook 2022 - Employment and related social protection for people with dementia and their carers
+    \end{itemize}
+    \item[(3)] \href{https://www.near-aging.se/databases/}{NEAR Study}
+    \begin{itemize}
+        \item NEAR Study.xlsx
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsubsection{Dementia Descriptions}
+\begin{itemize}
+    \item[(1)] Dementia Measurement
+    \begin{itemize}
+        \item HCAP Cohort Studies
+        \item HCAP Test
+        \item \href{https://hcap.isr.umich.edu/publications/}{Publications\_HCAP Protocol}
+        \item HCAP Weighting
+        \item HCAP Calculation of Cognitive Decline
+        \item HCAP Diagnostic Measures
+        \item Others
+    \end{itemize}
+    \item[(2)] Dementia Prevalence
+    \begin{itemize}
+        \item Alzheimer Europe \\
+        1. The sources how they estimated the prevalence rates: \\
+        (1) Hofman et al. (1991): The Prevalence of Dementia in Europe: A Collaborative Study of 1980-1990 Findings \\
+        (2) Ferri et al. (2005): Global prevalence of dementia: a Delphi consensus study \\
+        2. The data they used: \\
+        2018 data from the United Nations World Population Prospects \\
+        3. Where to find the information: \\
+        (1) Dementia in Europe Yearbook (2019): 2. Introduction - Background to the report  \\
+        (2) Dementia in Europe Yearbook (2013): Appendix 1: The prevalence of dementia in Europe - How we calculated the prevalence figures for this report \\
+        (3) Dementia in Europe Yearbook (2006): 3 Dementia in Europe – “Comparative Findings” - 3.1 The prevalence of dementia in Europe - 3.1.2 Examples of major prevalence studies
+        \item Summary
+        \item \href{https://www.oecd-ilibrary.org/social-issues-migration-health/health-at-a-glance-2021_ae3016b9-en}{OECD (2021)}: Health at a Glance 2021
+        \item \href{https://www.who.int/publications/i/item/9789240033245}{WHO (2021)}: Global status report on the public health response to dementia
+        \item \href{https://www.alzint.org/what-we-do/research/world-alzheimer-report/}{ADI (2022)}: World Alzheimer Report 2022 - Life after diagnosis: Navigating treatment, care and support
+        \item \href{https://www.nia.nih.gov/research/blog/2022/07/looking-forward-nihs-alzheimers-disease-and-related-dementias-fy-2024-bypass}{NIA (2024)}: Looking Forward: Opportunities to Accelerate Alzheimer’s and Related Dementias Research 
+        \item Review\_\cite{hendriks2021global}: Global Prevalence of Young-Onset Dementia: A Systematic Review and Meta-analysis
+    \end{itemize}
+    \item[(3)] Dementia Cost
+    \begin{itemize}
+        \item Summary
+        \item \cite{hurd2013monetary}: Monetary Costs of Dementia in the United States
+        \item \cite{jutkowitz2017societal}: Societal and Family Lifetime Cost of Dementia: Implications for Policy
+        \item \cite{wimo2017worldwide}: The worldwide costs of dementia 2015 and comparisons with 2010
+        \item \cite{holmerova2017costs}: Costs of dementia in the Czech Republic
+        \item \cite{hojman2017cost}: The cost of dementia in an unequal country: The case of Chile
+        \item \cite{jia2018cost}: The cost of Alzheimer’s disease in China and re-estimation of costs worldwide
+        \item \cite{mueller2018hospitalization}: Hospitalization in people with dementia with Lewy bodies: Frequency, duration, and cost implications
+        \item \cite{ferretti2018assessment}: An assessment of direct and indirect costs of dementia in Brazil
+        \item \cite{rapp2018resource}: Resource Use and Cost of Alzheimer’s Disease in France: 18-Month Results from the GERAS Observational Study
+        \item \cite{bruno2018costs}: Costs and Resource Use Associated with Alzheimer’s Disease in Italy: Results from an Observational Study
+        \item \cite{aajami2019direct}: Direct and indirect cost of managing Alzheimer’s disease in the Islamic Republic of Iran
+        \item \cite{henderson2019use}: Use and costs of services and unpaid care for people with mild-to-moderate dementia: Baseline results from the IDEAL cohort study
+        \item \cite{panca2019healthcare}: Healthcare resource utilisation and costs of agitation in people with dementia living in care homes in England - The Managing Agitation and Raising Quality of Life in Dementia (MARQUE) study
+        \item \cite{reina2019opportunity}: The opportunity costs of caring for people with dementia in Southern Spain
+        \item \cite{kongpakwattana2019real}: A Real-World Evidence Analysis of Associations Among Costs, Quality of Life, and Disease-Severity Indicators of Alzheimer’s Disease in Thailand
+        \item \cite{gola2020healthcare}: Healthcare utilization and monetary costs associated with agitation in UK care home residents with advanced dementia: a prospective cohort study
+        \item \cite{afonso2020emergency}: Emergency department and hospital admissions among people with dementia living at home or in nursing homes: results of the European RightTimePlaceCare project on their frequency, associated factors and costs
+        \item \cite{steinbeisser2020cost}: Cost‑efectiveness of a non‑pharmacological treatment vs. “care as usual” in day care centers for community‑dwelling older people with cognitive impairment: results from the German randomized controlled DeTaMAKS‑trial
+        \item \cite{braun2020cost}: Cost of care for persons with dementia: using a discrete-time Markov chain approach with administrative and clinical data from the dementia service Centres in Austria
+        \item \cite{howard2021effectiveness}: The effectiveness and cost-effectiveness of assistive technology and telecare for independent living in dementia: a randomised controlled trial
+        \item \cite{meijer2022economic}: Economic costs of dementia in 11 countries in Europe: Estimates from nationally representative cohorts of a panel study
+        \item \cite{van2022cost}: Cost-effectiveness of exergaming compared to regular day-care activities in dementia: Results of a randomised controlled trial in The Netherlands
+        \item Review\_\cite{schaller2015main}: The main cost drivers in dementia: a systematic review
+        \item Review\_\cite{fishman2019cost}: Cost of Dementia in Medicare Managed Care: A Systematic Literature Review
+        \item Review\_\cite{cantarero2020economic}: The economic cost of dementia: A systematic review
+        \item Review\_\cite{mattap2022economic}: The economic burden of dementia in low- and middle-income countries (LMICs): a systematic review 
+        \item Review\_\cite{jonsson2023costs}: The Costs of Dementia in Europe: An Updated Review and Meta‑analysis
+    \end{itemize}
+    \item[(4)] Dementia Other Indicators
+    \begin{itemize}
+        \item Summary
+        \item \href{https://www.oecd-ilibrary.org/social-issues-migration-health/health-at-a-glance-2021_ae3016b9-en}{OECD (2021)}: Health at a Glance 2021
+        \item \href{https://www.who.int/publications/i/item/9789240033245}{WHO (2021)}: Global status report on the public health response to dementia
+        \item \href{https://www.alz.org/alzheimers-dementia/facts-figures#:~:text=More%20than%206%20million%20Americans%20of%20all%20ages%20have%20Alzheimer's,living%20with%20Alzheimer's%20in%202023.}{AA (2023)}: 2023 Alzheimer's Disease Facts and Figures
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsubsection{Dementia Determinants}
+\begin{itemize}
+    \item[(1)] Dementia \& Income/Wealth
+    \begin{itemize}
+        \item \cite{leist2014economic}: Do Economic Recessions During Early and Mid-Adulthood Influence Cognitive Function in Older Age? \\
+        \uline{Purpose}: 
+        This study examines whether economic recessions experienced in early and mid-adulthood are associated with later-life cognitive function.\\
+        \uline{Method}: 
+        Data came from 12,020 respondents in 11 countries participating in the Survey of Health, Ageing and Retirement in Europe (SHARE).\\
+        \uline{Result}: 
+        Men aged 45-49 and women aged 25-44 have worse cognitive function at ages 50-74 with each additional decline.
+        \item \cite{fritze2014can}: Can individual conditions during childhood mediate or moderate the long-term cognitive effects of poor economic environments at birth? \\
+        \uline{Purpose}: 
+        The study examines the impact of childhood conditions on late-life cognitive functioning and investigates whether they mediate or moderate the effects of the business cycle at the time of birth. \\ 
+        \uline{Method}: 
+        We use data from 7935 respondents at ages 60+ in eleven European countries from the first three waves of the Survey of Health, Ageing and Retirement in Europe (SHARE). \\
+        \uline{Result}: 
+        Individuals born during boom periods display signs of having better cognitive functioning later in life, whereas recessions negatively influence cognition. Furthermore, a series of childhood conditions in and of themselves influence late-life cognition. Good childhood cognition, high education as well as a high social status, favourable living arrangements, and good health have a positive impact.
+        \item \cite{kim2016lagged}: Lagged Associations of Metropolitan Statistical Area- and State-Level Income Inequality with Cognitive Function: The Health and Retirement Study \\
+        \uline{Purpose}: 
+        Much variation in individual-level cognitive function in late life remains unexplained. Income inequality is a contextual factor that may plausibly influence cognitive function. \\
+        \uline{Method}: 
+        In the Health and Retirement Study (HRS), we examined state- and metropolitan statistical area (MSA)-level income inequality as predictors of individual-level cognitive function measured by Telephone Interview for Cognitive Status scale. We modeled latency periods of 8–20 years. \\
+        \uline{Result}: 
+        Higher MSA-level income inequality predicted lower cognitive function 16–18 years later.
+        \item \cite{aguila2020short}: Short-Term Impact of Income on Cognitive Function: Evidence From a Sample of Mexican Older Adults \\
+        \uline{Purpose}: 
+        To estimate the short-run (6-9 months) impact and mediating mechanisms of an intervention providing supplemental income to individuals 70 years and above from the Mexican state of Yucatan on markers of cognitive functioning (immediate and delayed word recall). \\
+        \uline{Method}: 
+        Regression-adjusted difference-in-differences (DID) analysis using baseline and follow-up data collected at treatment and control sites from an experiment. \\
+        \uline{Result}: 
+        The intervention improved immediate an delayed recall scores for men and women. We found no effects on diagnoses of dementia risk factors, depression, and activities of daily living (ADLs). In low- and middle-income countries, supplemental income for elderly may be an effective strategy to improve cognitive function by increasing food security and health care utilization.
+        \item \cite{muhammad2021association}: Association of self-perceived income sufficiency with cognitive impairment among older adults: a population-based study in India \\
+        \uline{Purpose}: 
+        The present study contributes to the existing literature on the linkages of self-perceived income sufficiency and cognitive impairment. \\
+        \uline{Method}: 
+        Data for this study is derived from the 'Building Knowledge Base on Population Ageing in India'. The final sample size was 9176 older adults. \\
+        \uline{Result}: 
+        Older adults with income but partially sufficient to fulfil their basic needs had 39\% significantly higher likelihood to suffer from cognitive impairment than older adults who had sufficient income. Again, older adults who work by compulsion (73.3\%) or felt mental or physical stress due to work (57.6\%) had highest percentage of cognitive impairment. 
+        \item \cite{petersen2021association}: Association of Socioeconomic Status With Dementia Diagnosis Among Older Adults in Denmark \\
+        \uline{Purpose}: 
+        This studies have focused on whether household income (HHI) is associated with dementia diagnosis and cognitive severity at the time of diagnosis. \\
+        \uline{Method}: 
+        The study population comprised individuals who received a first-time referral for a diagnostic evaluation for dementia to the secondary health care sector of Denmark between January 1, 2017, and December 17, 2018. \\
+        \uline{Result}: 
+        Individuals with HHI in the upper tertile compared with those with lower-tertile HHI were less likely to receive a dementia diagnosis after referral and, if diagnosed with dementia, had less severe cognitive stage. Individuals with middle-tertile HHI did not significantly differ from those with lower-tertile HHI in terms of dementia diagnosis and cognitive stage at diagnosis.
+        \item \cite{foong2021relationship}: Relationship between financial well-being, life satisfaction, and cognitive function among low-income community-dwelling older adults: the moderating role of sex \\
+        \uline{Purpose}: 
+        This study aimed to identify the relationships among financial well-being, life satisfaction, and cognitive function among low-income older adults and to examine the moderating effect of sex on these relationships.\\
+        \uline{Method}: 
+        This study involved 2004 nationally representative community dwelling older Malaysians from the bottom 40\% household income group. \\
+        \uline{Result}: 
+        Financial well-being was positively associated with life satisfaction and cognitive function. Sex moderated the relationship between financial well-being and life satisfaction but not between financial well-being and cognitive function.
+        \item \cite{jitlal2021influence}: The Influence of Socioeconomic Deprivation on Dementia Mortality, Age at Death, and Quality of Diagnosis: A Nationwide Death Records Study in England and Wales 2001–2017 \\
+        \uline{Purpose}: 
+        This paper studies whether socioeconomic deprivation is postulated to be an important determinant of dementia risk, mortality, and access to diagnostic services. \\
+        \uline{Method}: 
+        We obtained Office of National Statistics (ONS) mortality data where dementia was recorded as a cause of death in England and Wales from 2001 to 2017. \\
+        \uline{Result}: 
+        In 2017, 14,837 excess dementia deaths were attributable to deprivation (21.5\% of the total dementia deaths that year). There were dose-response effects of deprivation on likelihood of being older at death with dementia (odds ratio for decile 10 (least deprived).
+        \item \cite{kunzi2023adversity}: Adversity specificity and life period exposure on cognitive aging \\
+        \uline{Purpose}: 
+        This study set out to examine the role of diferent adversities experienced at diferent life course stages on cognitive aging. \\
+        \uline{Method}: 
+        Data from the longitudinal study: Survey of Health, Ageing, and Retirement in Europe (SHARE) with the selection of participants over 60 years were used (N= 2662, Mdnage= 68, SDage= 5.39) in a Structural Equation Modeling. \\
+        \uline{Result}: 
+        In early life, the experience of hunger predicted lower delayed recall and verbal fuency performance in older age, whereas fnancial hardship predicted lower verbal fuency  performance and steeper decline in delayed recall. In early adulthood, financial hardship and stress predicted better delayed recall and verbal fuency performance, but no adversities were associated with a change in cognitive performance. In middle adulthood, no adversities were associated with the level of cognitive performance, but financial hardship predicted lower decline in delayed recall. 
+    \end{itemize}
+    \item[(2)] Wealth Measurement
+    \begin{itemize}
+        \item \cite{niedzwiedz2016relationship}: The relationship between wealth and loneliness among older people across Europe: Is social participation protective? \\
+        \uline{Source}: Method - Independent Variables \\
+        Data were taken from the fifth wave (release 1.1.0) of the Survey of Health, Ageing and Retirement in Europe (SHARE) (Börsch-Supan, 2015), collected during 2013. \\
+        Self-reported wealth was measured by the sum of household financial (e.g. money in bank accounts, stocks or government bonds) and real (e.g. value of own residence or vehicle) assets, minus liabilities (e.g. mortgage or credit card debt). \\
+        Wealth was equivalised using the Organisation for Economic Co-operation and Development (OECD) equivalence scale (OECD, 2006) and divided into country-specific quintiles. Missing values were multiply imputed by the SHARE team (De Luca et al., 2015).
+        \item \cite{ferrari2020nativity}: The nativity wealth gap in Europe: a matching approach \\
+        \uline{Source}: 3.1 Data description \\
+        This study utilizes waves 2, 4, 5, and 6 of SHARE, which covers the period 2007 to 2015. \\
+        Wealth equals to the sum of which amounts to the overall (net) real and financial wealth of households. \\
+        Real assets: the sum of the value of main residence net of the mortgage on main residence, the value of real estate, the value of own businesses, and the value of cars. \\
+        Financial assets: the sum of the value of bank accounts, bond, stocks, and mutual funds, plus savings for long-term investments and net of financial liabilities. In turn, savings for long-term investments are given by the amounts in individual retirement accounts, the value of contractual savings for housing, and the face value of whole life policies. \\
+        In the final sample, the percentage of missing—and therefore imputed—values is lower than 13\% for most wealth items (specifically, the value of real estate, owned businesses, cars, bond, stocks, mutual funds, mortgages, and liabilities). It is around 20\% for the value of house and of savings for long-term investments and reaches 34\% for the value of bank accounts. \\
+        SHARE also contains information that can be used to obtain a measure of individuals’ pension wealth.
+        \item \cite{quashie2022socioeconomic}: Socioeconomic differences in informal caregiving in Europe \\
+        \uline{Source}: Independent Variables - Individual-level measures \\
+        We use pooled data from the Survey of Health, Ageing and Retirement in Europe (SHARE, waves 1, 2, 4, 5, 6), from 2004 to 2015 (release 7.0.0). \\
+        Wealth (also converted to Euros in ELSA), which includes the net sum of financial (e.g., savings, investments, minus liabilities) and real assets (e.g., value of housing minus mortgage, other physical wealth), was categorized as (1) debts, negative wealth, (2) 0–49 999 (reference group), (3) 50 000 to 99 999, and (4) 100 000 or more.
+    \end{itemize}
+    \item[(3)] Income Measurement
+    \begin{itemize}
+        \item \href{https://www.rand.org/pubs/working_papers/WR861z5.html}{SHARE (2012)}: Harmonization of Cross-National Studies of Aging to the Health and Retirement Study - Income Measures \\
+        \uline{Source}: 1.3 Europe – SHARE \\
+        1.3.1 Earnings from Paid Work \\
+        1.3.2 Self-Employment Income \\
+        1.3.3 Private Pension and Annuity \\
+        1.3.4 Public Pension \\
+        1.3.5 Government and Welfare Transfers \\
+        1.3.6 Asset Income \\
+        1.3.7 Income of Other Household Members
+        \item \cite{pettinicchi2019retirement}: Retirement Income Adequacy of Traditionally Employed and Self-Employed Workers: Analyses with SHARE Data \\
+        \uline{Source}: 4. Equivalised Disposable Income \\
+        Data source: SHARE Wave 7 Release 7.0.0 \\
+        The income-based poverty measure is computed using equivalised disposable income, which is the total income of a household after taxes and other deductions that is available for spending or saving, divided by the equivalised number of household members. Household members are equivalised by weighting each member according to their age using the so-called modified OECD equivalence scale. \\
+        The equivalised disposable income is calculated in three steps: \\ 
+        1. We start from the amount reported by the household respondent. \\
+        2. In order to reflect differences in a household's size and composition, the total (net) household income is divided by the number of ‘equivalent adults’, using the modified equivalence OECD scale. \\
+        3. The equivalised disposable income is calculated from the total disposable income of each household divided by the equivalised household size. It is attributed equally to each member of the household.
+        \item \cite{borsch2019health}: Health and socio-economic status over the life course: First results from SHARE Waves 6 and 7 \\
+        \uline{Source}: Part II Health inequalities - Education and income \\
+        Can't find indicators about income measurement
+        \item \cite{quashie2022socioeconomic}: Socioeconomic differences in informal caregiving in Europe \\
+        \uline{Source}: Independent Variables - Individual-level measures \\
+        We analyzed pooled data from the Survey of Health, Ageing and Retirement in Europe (SHARE), from 2004 to 2015 (release 7.0.0), and the English Longitudinal Study of Ageing (ELSA) from 2002 to 2015. \\
+        We used a harmonized measure of total yearly couple income provided by the Gateway to Global Aging (please see the Gateway to Global Aging guide Beaumaster et al. 2019; Gateway to Global Aging Data Team 2020; Lee 2015). In ELSA, we converted income to Euros using the average annual exchange rate for the respective survey years (UK Office of National Statistics 2019). We adjusted total income for household size using an equivalence scale that assigns a value of 1 to the household head and 0.5 to each additional member. We then categorized this equivalized income based on a household’s position relative to the median income in each wave and country. The categories included: (1) poor (below 50\% of median income), (2) low middle income (50\% of median income to median income), (3) middle medium income, reference group (median income to 200\% of median income), (4) high middle income (200\% to 300\% of median income), and (5) high income (above 300\% of median income).
+    \end{itemize}
+    \item[(4)] Dementia \& Education
+    \begin{itemize}
+        \item \cite{palms2021links}: Links between early-life contextual factors and later-life cognition and the role of educational attainment
+        \item \cite{seblova2021does}: Does Prolonged Education Causally Affect Dementia Risk When Adult Socioeconomic Status Is Not Altered? A Swedish Natural Experiment in 1.3 Million Individuals
+        \item \cite{jester2023impact}: Impact of educational attainment on time to cognitive decline among marginalized older adults: Cohort study of 20,311 adults
+        \item Review\_\cite{sharp2011relationship}: The Relationship between Education and Dementia An Updated Systematic Review
+    \end{itemize}
+    \item[(5)] Dementia \& Racial
+    \begin{itemize}
+        \item \cite{babulal2019perspectives}: Perspectives on ethnic and racial disparities in Alzheimer’s disease and related dementias: Update and areas of immediate need
+        \item \cite{matthews2019racial}: Racial and ethnic estimates of Alzheimer’s disease and related dementias in the United States (2015–2060) in adults aged $\geq$ 65 years
+        \item \cite{lennon2022black}: Black and White individuals differ in dementia prevalence, risk factors, and symptomatic presentation
+        \item \cite{lee2023coping}: Coping Styles and Cognitive Function in Older Non-Hispanic Black and White Adults
+        \item Review\_\cite{mehta2017systematic}: Systematic review of dementia prevalence and incidence in US race/ethnic populations
+    \end{itemize}
+    \item[(6)] Dementia \& SES
+    \begin{itemize}
+        \item \cite{basu2013effects}: Effects of education and income on cognitive functioning among Indians aged 50 years and older: evidence from the Study on Global Ageing and Adult Health (SAGE) Wave 1 (2007–2010) \\
+        \uline{Keywords}: education, income, cognitive, India
+        \item \cite{cadar2018individual}: Individual and Area-Based Socioeconomic Factors Associated With Dementia Incidence in England: Evidence From a 12-Year Follow-up in the English Longitudinal Study of Ageing \\
+        \uline{Keywords}: education, wealth, area-based deprivation, dementia, England
+        \item \cite{liu2019socioeconomic}: Socioeconomic Status and Parenting Style From Childhood: Long-Term Effects on Cognitive Function in Middle and Later Adulthood \\
+        \uline{Keywords}: parental education, childhood SES, cognitive, US 
+        \item \cite{deckers2019modifiable}: Modifiable Risk Factors Explain Socioeconomic Inequalities in Dementia Risk: Evidence from a Population-Based Prospective Cohort Study \\
+        \uline{Keywords}: wealth, education, dementia, UK (ELSA)
+        \item \cite{zhang2020early}: Early-life Socioeconomic Status, Adolescent Cognitive Ability, and Cognition in Late Midlife: Evidence from the Wisconsin Longitudinal Study \\
+        \uline{Keywords}: childhood SES, education, economic condition, cognition, US
+        \item \cite{samuel2020socioeconomic}: Socioeconomic disparities in six-year incident dementia in a nationally representative cohort of U.S. older adults: an examination of financial resources \\
+        \uline{Keywords}: income, dementia, US
+        \item \cite{george2020life}: Life-Course Individual and Neighborhood Socioeconomic Status and Risk of Dementia in the Atherosclerosis Risk in Communities Neurocognitive Study \\
+        \uline{Keywords}: LC (life course) SES, racial, dementia, US
+        \item \cite{tom2020association}: Association of Demographic and Early-Life Socioeconomic Factors by Birth Cohort With Dementia Incidence Among US Adults Born Between 1893 and 1949 \\
+        \uline{Keywords}: early life, dementia, US
+        \item \cite{rodriguez2021role}: The role of education and income for cognitive functioning in old age: A cross‐country comparison \\
+        \uline{Keywords}: education, income, cognition, global
+        \item \cite{cha2021socioeconomic}: Socioeconomic status across the life course and dementia-status life expectancy among older Americans \\
+        \uline{Keywords}: childhood SES, education, dementia, US (HRS)
+        \item \cite{stefler2021socioeconomic}: Socioeconomic inequalities in physical and cognitive functioning: cross-sectional evidence from 37 cohorts across 28 countries in the ATHLOS project \\
+        \uline{Keywords}: education, income, cognition, global
+        \item \cite{wang2023socioeconomic}: Socioeconomic Status Disparities in Cognitive and Physical Functional Impairment among Older Adults: Comparison of Asians with other Major Racial/Ethnic Groups \\
+        \uline{Keywords}: racial, cognition, US
+        \item \cite{ibanez2023addressing}: Addressing the gaps between socioeconomic disparities and biological models of dementia \\
+        \uline{Keywords}: income, education, gender, race, ethnicity, occupation, type of residence, etc. dementia, global
+        \item Review\_\cite{meng2012education}: Education and Dementia in the Context of the Cognitive Reserve Hypothesis: A Systematic Review with MetaAnalyses and Qualitative Analyses \\
+        \uline{Keywords}: education, dementia, global
+        \item Review\_\cite{wang2023socioeconomic}: Socioeconomic Status and Risks of Cognitive Impairment and Dementia: A Systematic Review and Meta-Analysis of 39 Prospective Studies \\ 
+        \uline{Keywords}: all kinds, dementia, global
+    \end{itemize}
+    \item[(7)] Dementia \& Other Modifiable Factors
+    \begin{itemize}
+        \item \cite{mukadam2020effective}: Effective interventions for potentially modifiable risk factors for late-onset dementia: a costs and cost-effectiveness modelling study
+        \item \cite{livingston2020dementia}: Dementia prevention, intervention, and care: 2020 report of the Lancet Commission
+        \item \cite{ma2021differences}: Differences in the potential for dementia prevention between major ethnic groups within one country: A cross sectional analysis of population attributable fraction of potentially modifiable risk factors in New Zealand
+        \item \cite{zaheed2021associations}: Associations between life course marital biography and late-life memory decline
+        \item \cite{daly2022avoiding}: Avoiding Over-Reliance on Multi-Domain Interventions for Dementia Prevention
+        \item \cite{sutin2022association}: The Association Between Facets of Conscientiousness and Performance-based and Informant-Rated Cognition, Affect, and Activities in Older Adults
+        \item \cite{frank2023life}: Life course engagement in enriching activities: When and how does it matter for cognitive aging?
+        \item \cite{levy2023role}: Role of Positive Age Beliefs in Recovery From Mild Cognitive Impairment Among Older Persons
+        \item \cite{yu2023cumulative}: Cumulative loneliness and subsequent memory function and rate of decline among adults aged $\geq$ 50 in the United States, 1996 to 2016
+        \item \cite{Abuladze2023ComparingTC}: Comparing the cognitive functioning of middle-aged and older foreign-origin population in Estonia to host and origin populations
+        \item \cite{sutin2023five}: Five-Factor Model Personality Traits and the Trajectory of Episodic Memory: Individual-Participant Meta-Analysis of 471,821 Memory Assessments from 120,640 Participants
+        \item \cite{zaheed2023mental}: Mental and physical health pathways linking insomnia symptoms to cognitive performance 14 years later
+        \item \cite{crane2023body}: Body Mass Index and Cognition: Associations Across Mid-to Late Life and Gender Differences
+        \item \cite{cho2023internet}: Internet usage and the prospective risk of dementia: A population‐based cohort study
+        \item \cite{britt2023association}: Association of Religious Service Attendance and Neuropsychiatric Symptoms, Cognitive Function, and Sleep Disturbances in All-Cause Dementia
+        \item \cite{gallagher2023patterns}: Patterns of sleep disturbances across stages of cognitive decline
+        \item \cite{hanes2023cognitive}: Cognitive Aging in Same-and Different-Sex Relationships: Comparing Age of Diagnosis and Rate of Cognitive Decline in the Health and Retirement Study
+        \item \cite{sims2023donanemab}: Donanemab in early symptomatic Alzheimer disease: the TRAILBLAZER-ALZ 2 randomized clinical trial
+        \item \cite{walhovd2023timing}: Timing of lifespan influences on brain and cognition
+        \item \cite{frisoni2023dementia}: Dementia prevention in memory clinics: recommendations from the European task force for brain health services
+        \item Review\_\cite{peters2019combining}: Combining modifiable risk factors and risk of dementia: a systematic review and meta-analysis
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsubsection{Dementia Care}
+\begin{itemize}
+    \item[(1)] Dementia Needs
+    \begin{itemize}
+        \item \cite{janssen2020profiles}: Profiles of Met and Unmet Needs in People with Dementia According to Caregivers' Perspective
+        \item \cite{telenius2020need}: I need to be who I am: a qualitative interview study exploring the needs of people with dementia in Norway
+    \end{itemize}
+    \item[(2)] Dementia \& Healthcare
+    \begin{itemize}
+        \item \cite{von2016care}: Care arrangements for community-dwelling people with dementia in Germany as perceived by informal carers – a cross-sectional pilot survey in a provincial–rural setting
+        \item \cite{jutkowitz2017effects}: Effects of Cognition, Function, and Behavioral and Psychological Symptoms on Medicare Expenditures and Health Care Utilization for Persons With Dementia
+        \item \cite{lin2017dementia}: ‘Dementia-friendly communities’ and being dementia friendly in healthcare settings
+        \item \cite{bender2017executive}: Executive function, episodic memory, and Medicare expenditures
+        \item \cite{stephan2018barriers}: Barriers and facilitators to the access to and use of formal dementia care: findings of a focus group study with people with dementia, informal carers and health and social care professionals in eight European countries
+        \item \cite{kerpershoek2019optimizing}: Optimizing access to and use of formal dementia care: Qualitative findings from the European Actifcare study
+        \item \cite{harrison2019advance}: Advance care planning in dementia: recommendations for healthcare professionals
+        \item \cite{white2019medicare}: Medicare expenditures attributable to dementia
+        \item \cite{o2019multiple}: Multiple stakeholders' perspectives on respite service access for people with dementia and their carers
+        \item \cite{wright2019dementia}: Dementia, autonomy, and supported healthcare decisionmaking
+        \item \cite{ydstebo2020informal}: Informal and formal care among persons with dementia immediately before nursing home admission
+        \item \cite{giebel2021nobody}: “Nobody Seems to Know Where to Even Turn To”: Barriers in Accessing and Utilising Dementia Care Services in England and The Netherlands
+        \item \cite{lenzen2021health}: Health Care Use and Out-of-pocket Spending by Persons With Dementia Differ Between Europe and the United States
+        \item \cite{nielsen2021barriers}: Barriers in access to dementia care in minority ethnic groups in Denmark: a qualitative study
+        \item Review\_\cite{bieber2019influences}: Influences on the access to and use of formal community care by people with dementia and their informal caregivers: a scoping review
+        \item Review\_\cite{mcmaughan2020socioeconomic}: Socioeconomic Status and Access to Healthcare: Interrelated Drivers for Healthy Aging
+        \item Review\_\cite{tuijt2021exploring}: Exploring how triads of people living with dementia, carers and health care professionals function in dementia health care: A systematic qualitative review and thematic synthesis
+        \item Review\_\cite{hennelly2021personhood}: Personhood and Dementia Care: A Qualitative Evidence Synthesis of the Perspectives of People With Dementia
+        \item Review\_\cite{carroll2022equity}: Equity in healthcare access and service coverage for older people : a scoping review of the conceptual literature
+        \item Review\_\cite{arsenault2023rural}: Rural and urban diferences in quality of dementia care of persons with dementia and caregivers across all domains: a systematic review
+        \item \href{https://www.journalslibrary.nihr.ac.uk/hsdr/hsdr04080/#/abstract}{NHS (2016)}: Comorbidity and dementia: a mixed-method study on improving health care for people with dementia (CoDem)
+        \item \href{https://www.alzint.org/resource/world-alzheimer-report-2016/}{ADI (2016)}: World Alzheimer report 2016: improving healthcare for people living with dementia: coverage, quality and costs now and in the future 
+        \item \href{https://www.who.int/publications/i/item/global-action-plan-on-the-public-health-response-to-dementia-2017---2025}{WHO (2017)}: Global action plan on the public health response to dementia 2017 - 2025
+        \item \href{https://www.oecd.org/health/care-needed-9789264085107-en.htm}{OECD (2018)}: Care Needed: Improving the Lives of People with Dementia
+        \item \href{https://www.oecd.org/health/realising-the-potential-of-primary-health-care-a92adee4-en.htm}{OECD (2020)}: OECD Health Policy Studies - Realising the Potential of Primary Health Care
+        \item \href{https://www.cdc.gov/nchs/data/nhis/health_insurance/trendhealthinsurance1968_2022.pdf}{CDC (2023)}: National Health Interview Survey - Long-term Trends in Health Insurance Coverage
+    \end{itemize}
+    \item[(3)] Dementia Caregiver
+    \begin{itemize}
+        \item \cite{joling2015two}: The Two-Year Incidence of Depression and Anxiety Disorders in Spousal Caregivers of Persons with Dementia: Who is at the Greatest Risk?
+        \item \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6732694/}{WHO (2019)}: iSupport: a WHO global online intervention for informal caregivers of people with dementia
+    \end{itemize}
+\end{itemize}
+
+
+
+
+\subsection{Methods}
+\subsubsection{Sample Processing}
+\begin{itemize}
+    \item[(1)] Sample Selection Effects
+    \item[(2)] Floor and Ceiling Effects
+    \item[(3)] Data Attrition
+\end{itemize}
+\subsubsection{Classification}
+\subsubsection{Prevalence Estimation}
+\subsubsection{Causal Inference}
+\begin{itemize}
+    \item[(1)] Markov Chain Monte Carlo
+    \item[(2)] Instrument Variable
+    \item[(3)] Multiple Indicators Multiple Causes Model (MIMIC)
+    \item[(4)] Doubly Robust Estimation
+    \item[(5)] Others
+\end{itemize}
+
+
+
+
+
+
+
+
+
+\vspace{50pt}
+
+\section{Data}
+
+\subsection{Data Sources}
+
+\subsubsection{HCAP Variables}
+\begin{itemize}
+    \item[(1)] Summary
+    \item[(2)] Reports
+    \begin{itemize}
+        \item \href{https://hrs.isr.umich.edu/publications/biblio/9950}{HRS (2016)}: Summary Cognitive Performance and Functional Performance Measures Data File
+        \item \href{https://www.elsa-project.ac.uk/study-documentation}{ELSA (2023)}: Data dictionary for the ELSA Harmonised Cognitive Assessment Protocol (ELSA HCAP) score variables
+        \item \href{https://www.mhasweb.org/Documentation/ConstructedData.aspx}{MHAS (2023)}: The Mexican Health and Aging Study (MHAS) Created Variables
+    \end{itemize}
+    \item[(3)] Related Reports
+    \begin{itemize}
+        \item \href{https://www.elsa-project.ac.uk/the-data-we-collect}{ELSA}: ELSA Dataset Waves 0 TO 10
+        \item \href{https://hrs.isr.umich.edu/publications/biblio/8517}{HRS (2014)}: Cognitive Test Selection for the Harmonized Cognitive Assessment Protocol (HCAP) Documentation Report
+        \item \href{https://hrs.isr.umich.edu/publications/biblio/9950}{HRS (2016)}: 2016 Harmonized Cognitive Assessment Protocol (HCAP) Study Protocol Summary
+        \item \href{https://www.mhasweb.org/Documentation/SurveyDesign.aspx}{MHAS (2018)}: Mexican Health and Aging Study 2018 (MHAS) Methodological Document
+        \item \href{https://www.mhasweb.org/Documentation/DataDescriptions.aspx}{MHAS (2020)}: The Mexican Health and Aging Study (MHAS) Master Follow-up File 2001, 2003, 2012, 2015 and 2018
+        \item \href{https://www.mhasweb.org/Documentation/ConstructedData.aspx}{MHAS (2022)}: The Mexican Health and Aging Study (MHAS) Cognitive Function Measures Scoring and Classification Across Waves 2001-2015
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsubsection{OECD Health}
+\begin{itemize}
+    \item[(1)] Summary 
+    \item[(2)] \href{https://stats.oecd.org/Index.aspx?QueryId=51879}{OECD Healthcare Quality Indicators}
+    \begin{itemize}
+        \item OECD healthcare quality indicators.pdf
+        \item OECD healthcare quality indicators.docx
+        \item original version.xls
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsubsection{WHO Health}
+\begin{itemize}
+    \item[(1)] \href{https://www.who.int/data/inequality-monitor/data#PageContent_C691_Col00}{WHO Healthcare}
+    \begin{itemize}
+        \item Summary
+        \item Health care (Eurostat)
+        \item Health care access (DHS Program)
+        \item Health care quality, resources and expenditure (OECD)
+        \item Health care system and access (WHO Global Health Observatory)
+    \end{itemize}
+    \item[(2)] \href{https://www.who.int/data/inequality-monitor/data}{WHO Dementia}
+    \begin{itemize}
+        \item Summary
+    \end{itemize}
+\end{itemize}
+
+
+
+
+
+\subsection{Data Processing}
+
+\subsubsection{Variables Preparation}
+\begin{itemize}
+    \item[(1)] Automatic Scoring
+    \begin{itemize}
+        \item \cite{bethmann2023automatic}: Automatic Scoring of Cognition Drawings
+        \item \cite{liu2022convnet}: A ConvNet for the 2020s
+        \item \cite{deng2009imagenet}: ImageNet: A Large-Scale Hierarchical Image Database
+        \item \cite{howard2020fastai}: Fastai: A layered API for deep learning
+        \item \href{https://github.com/huggingface/pytorch-image-models}{Wightman (2019)}: Timm: PyTorch image models
+        \item Future Work \\
+        \\
+        Vision Transformers \\
+        active learning approaches \\
+        automatic pre-labelling \\
+        diffusion models to generate synthetic data \\
+        dimensionality reduction \\
+        clustering techniques \\
+        Grad-CAM \\
+        \\
+        ImageNet-Sketch \\
+        TU Berlin Sketch Dataset \\
+        QuickDraw 
+        \item My understanding of CNN: \\
+        \\
+        CNN (Convolutional Neural Network) \\
+        \\
+        Objective: \\
+        To identify objects within images \\
+        \\
+        Processing Procedure: \\
+        Image - Loop: (RGB Matrix - Convolution - Feature Map) - Pooling - Fully Connected - Prediction \\
+        \\
+        1. RGB Matrix: The matrix representation of the original image; RGB stands for red, green, blue. \\
+        2. Convolution: Multiplying the RGB matrix by a convolution kernel (a small grid filled with numbers, which can be considered a matrix). \\
+        3. Feature Map: The new matrix obtained after multiplication. \\
+        4. Loop: Multiple convolutions. \\
+        5. Pooling: Significantly reduces the number of matrix parameters, retaining the main features of the image. \\
+        6. Fully Connected: Combines the extracted features together, providing the probability that the image may be of a certain object. \\
+        \\
+        P.S. Training the Convolution Kernel: Use existing images and their corresponding labels to automatically determine the numbers in the convolution kernel.
+    \end{itemize}
+    \item[(2)] Label Variables
+    \begin{itemize}
+        \item label\_variables.do
+        \item variable\_labels.dta
+        \item blomtransformed\_factorscores\_29.01.24.dta
+        \item Task
+    \end{itemize}
+    \item[(3)] ISCED Recoding
+    \begin{itemize}
+        \item isced\_recode.dta
+        \item isced\_recode.do
+        \item file
+        \item data
+    \end{itemize}
+    \item[(4)] Wealth \& Income
+    \begin{itemize}
+        \item wealth \& income.do 
+        \item w8\_gv\_imputations.dta
+    \end{itemize}
+    \item[(5)] Inflation Correction Rates
+    \begin{itemize}
+        \item inflation.dta
+        \item inflation correction rates.do
+        \item original data\_inflation.xls
+    \end{itemize}
+    \item[(6)] \href{https://www.share-datadocutool.org/physical-data-products/view/259}{Parents Migrant Background}
+    \begin{itemize}
+        \item w8\_born \& parents migrant.dta
+        \item description and statistics.docx
+        \item parents migrant\_w8.do
+        \item born country\_w8.do
+    \end{itemize}
+    \item[(7)] Retirement
+    \begin{itemize}
+        \item retirement.do
+        \item retirement.dta
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsubsection{Variables Statistics}
+\begin{itemize}
+    \item[(1)] \href{https://github.com/rnj0nes/HCAP22/tree/main/CFA-HCAP}{HCAP Variables Descriptive Summary}
+    \begin{itemize}
+       \item Data\_23Aug
+       \item Data\_24Feb
+       \item Data\_24Mar
+       \item Overlapping Histograms
+    \end{itemize}
+    \item[(2)] \href{https://rpubs.com/mbounthavong/964058}{Mean Score by Age}
+    \begin{itemize}
+        \item mean\_score\_age.do
+        \item normsample\_fscores\_v2\_12022024.dta
+        \item photo
+    \end{itemize}
+    \item[(3)] Normal Distribution Checks
+    \begin{itemize}
+        \item Histograms of Raw and Normalized Data.pdf
+        \item Histograms of Raw and Normalized Data.Rmd
+        \item factorscores\_normsample.csv
+        \item Original Task
+    \end{itemize}
+    \item[(4)] SHARE Publications
+    \begin{itemize}
+        \item doi2csv.py
+        \item doi2aff.py
+        \item color\_cognition.py
+        \item with\_doi.csv
+        \item with\_doi.txt
+        \item Original
+        \item Process
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsubsection{Datasets Merge \& Append}
+\begin{itemize}
+    \item[(1)] W1\_W8
+    \begin{itemize}
+        \item cf merge\_w1-w8\_hcapids.dta
+        \item cf merge\_w1-w8\_hcapids.do
+        \item hcap\_ids.dta
+    \end{itemize}
+    \item[(2)] W8
+    \begin{itemize}
+        \item w8\_fill.dta
+        \item w8\_fill.do
+    \end{itemize}
+    \item[(3)] merge basic.do
+\end{itemize}
+
+
+
+\subsubsection{Replicates}
+\begin{itemize}
+    \item[(1)] Kézdi \& Willis (2014)
+    \begin{itemize}
+        \item replication for Kézdi \& Willis (2014).pdf
+        \item replicate\_Kézdi \& Willis (2014).do
+        \item replication.dta
+        \item lcsm.R
+        \item Proceess
+        \item Latent Change Score Model
+        \item HRS Cognition Data
+    \end{itemize}
+    \item[(2)] Willis (2024)
+    \begin{itemize}
+        \item Willis (2024)\_SHARE.do
+        \item Willis (2024)\_SHARE\_database.do
+        \item SHARE\_results
+        \item HRS\_results
+        \item Variables
+        \item Files
+    \end{itemize}
+    \item[(3)] Klee et al. (2024)
+    \begin{itemize}
+        \item LW measure.dta
+        \item Report.html
+        \item project
+        \item paper
+        \item code
+        \item data
+    \end{itemize}
+\end{itemize}
+
+
+\vspace{30pt}
+
+\newpage
+\addcontentsline{toc}{section}{References}
+
+\bibliographystyle{unsrtnat}
+\bibliography{bibliography}
+
+\end{document}
